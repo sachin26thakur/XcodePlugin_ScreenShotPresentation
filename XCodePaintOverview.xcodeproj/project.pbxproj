@@ -12,6 +12,7 @@
 		0323814C1BD7EF8500168610 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 032381481BD7EF8500168610 /* Canvas.m */; settings = {ASSET_TAGS = (); }; };
 		0323814D1BD7EF8500168610 /* Brush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0323814A1BD7EF8500168610 /* Brush.m */; settings = {ASSET_TAGS = (); }; };
 		0327DFD01BD7C4C3005A1AFD /* NSWindow+WindowCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327DFCF1BD7C4C3005A1AFD /* NSWindow+WindowCapture.m */; settings = {ASSET_TAGS = (); }; };
+		033C45C71BDE350E00A3BDC0 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 033C45C61BDE350E00A3BDC0 /* install.sh */; settings = {ASSET_TAGS = (); }; };
 		035C43EB1BD793BA007E83EE /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035C43EA1BD793BA007E83EE /* AppKit.framework */; settings = {ASSET_TAGS = (); }; };
 		035C43ED1BD793BA007E83EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035C43EC1BD793BA007E83EE /* Foundation.framework */; settings = {ASSET_TAGS = (); }; };
 		035C43F11BD793BA007E83EE /* XCodePaintOverview.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 035C43F01BD793BA007E83EE /* XCodePaintOverview.xcscheme */; };
@@ -32,6 +33,7 @@
 		0323814A1BD7EF8500168610 /* Brush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brush.m; sourceTree = "<group>"; };
 		0327DFCE1BD7C4C3005A1AFD /* NSWindow+WindowCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+WindowCapture.h"; sourceTree = "<group>"; };
 		0327DFCF1BD7C4C3005A1AFD /* NSWindow+WindowCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+WindowCapture.m"; sourceTree = "<group>"; };
+		033C45C61BDE350E00A3BDC0 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
 		035C43E71BD793BA007E83EE /* XCodePaintOverview.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCodePaintOverview.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		035C43EA1BD793BA007E83EE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		035C43EC1BD793BA007E83EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -106,6 +108,7 @@
 				035C43F31BD793BA007E83EE /* XCodePaintOverview.m */,
 				035C43F51BD793BA007E83EE /* NSObject_Extension.h */,
 				035C43F61BD793BA007E83EE /* NSObject_Extension.m */,
+				033C45C61BDE350E00A3BDC0 /* install.sh */,
 				035C43F81BD793BA007E83EE /* Info.plist */,
 				035C43EF1BD793BA007E83EE /* Supporting Files */,
 				035C43FE1BD79457007E83EE /* PaintWindowViewController.h */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035C43F11BD793BA007E83EE /* XCodePaintOverview.xcscheme in Resources */,
+				033C45C71BDE350E00A3BDC0 /* install.sh in Resources */,
 				035C44021BD79457007E83EE /* PaintWindowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

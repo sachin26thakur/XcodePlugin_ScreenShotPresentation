@@ -71,6 +71,7 @@
 	CGContextRestoreGState(contextRef);    
 }
 
+
 - (float)stampMask:(CGImageRef)mask from:(NSPoint)startPoint to:(NSPoint)endPoint leftOverDistance:(float)leftOverDistance
 {
 	// Set the spacing between the stamps. By trail and error, I've 
